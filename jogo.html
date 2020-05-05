@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1> JOGO DA VELHA </h1>
+        <input type="button" value="INICIAR" onclick="iniciar();" />
+    </div>
+
+    <div>
+        <p id="msg"></p>
+    </div>
+
+    <div id="tabuleiro">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="celula1" onclick="escolheuCelula(0, this);"> </td>
+                <td id="celula2" onclick="escolheuCelula(1, this);"> </td>
+                <td id="celula3" onclick="escolheuCelula(2, this);"> </td>
+            </tr>
+            <tr>
+                <td id="celula4" onclick="escolheuCelula(3, this);"> </td>
+                <td id="celula5" onclick="escolheuCelula(4, this);"> </td>
+                <td id="celula6" onclick="escolheuCelula(5, this);"> </td>
+            </tr>
+            <tr>
+                <td id="celula7" onclick="escolheuCelula(6, this);"> </td>
+                <td id="celula8" onclick="escolheuCelula(7, this);"> </td>
+                <td id="celula9" onclick="escolheuCelula(8, this);"> </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
